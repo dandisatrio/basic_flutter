@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wisatabandung/detail_screen.dart';
+import 'package:wisatabandung/main_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: DetailScreen(),
+      home: MainScreen(),
     );
   }
 }
